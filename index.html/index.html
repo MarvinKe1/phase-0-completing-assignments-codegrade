@@ -3,53 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Largest US Cities by Population</title>
-    <style>
-        table {
-            width: 50%;
-            border-collapse: collapse;
-        }
-        th, td {
-            border: 1px solid black;
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-    </style>
+    <title>Image Tags Example</title>
 </head>
 <body>
+    <h1>Image Tags in HTML</h1>
+    
+    <p>Here are three different ways to use the <code>img</code> tag:</p>
 
-    <h2>Largest US Cities by Population (2017)</h2>
+    <!-- Image with only a source attribute -->
+    <h2>Image with only src</h2>
+    <img src="https://s3.amazonaws.com/ironboard-learn/lion.jpg" />
 
-    <table>
-        <tr>
-            <th>City</th>
-            <th>State</th>
-            <th>2017 Estimate</th>
-        </tr>
-        <tr>
-            <td>New York</td>
-            <td>New York</td>
-            <td>8,622,698</td>
-        </tr>
-        <tr>
-            <td>Los Angeles</td>
-            <td>California</td>
-            <td>3,999,759</td>
-        </tr>
-        <tr>
-            <td>Chicago</td>
-            <td>Illinois</td>
-            <td>2,716,450</td>
-        </tr>
-        <tr>
-            <td>Houston</td>
-            <td>Texas</td>
-            <td>2,312,717</td>
-        </tr>
-    </table>
+    <!-- Image with source and alt attributes -->
+    <h2>Image with src and alt</h2>
+    <img src="https://s3.amazonaws.com/ironboard-learn/lion.jpg" alt="A majestic lion resting in the savannah" />
+
+    <!-- Image with source, alt, and title attributes -->
+    <h2>Image with src, alt, and title</h2>
+    <img src="https://s3.amazonaws.com/ironboard-learn/lion.jpg" alt="A majestic lion resting in the savannah" title="King of the Jungle" />
 
 </body>
 </html>
